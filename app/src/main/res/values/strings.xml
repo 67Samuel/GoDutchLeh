@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoDutchLeh</string>
+    <string name="enter_event_name">Event Name:</string>
 </resources>
