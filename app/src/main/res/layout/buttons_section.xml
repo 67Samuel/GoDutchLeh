@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    >
+
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="150dp"
+        android:background="@color/white">
+
+    </View>
+
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="top"
+        android:background="@drawable/button_image"
+        android:text="Take Photo of Receipt">
+
+    </Button>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="150dp"
+        android:background="@color/white">
+
+    </View>
+
+
+    <Button
+        android:id="@+id/manualKeyIn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="top"
+        android:background="@drawable/button_image"
+        android:text="I'll Key In Myself">
+
+    </Button>
+
+
+</LinearLayout>
