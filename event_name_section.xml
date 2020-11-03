@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:weightSum="100">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+    </View>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="35"
+        android:text="@string/enter_event_name"
+        android:textSize="23dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+    </View>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="45"
+        android:id="@+id/eventNameEditText"
+        android:background="@color/lightGreen">
+
+    </EditText>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+    </View>
+
+
+
+</LinearLayout>
